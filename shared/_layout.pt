@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PyPi</title>
+    <link rel="stylesheet" href="/static/css/site.css">
+</head>
+<body>
+    <h1>PyPi Site</h1>
+    <div>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </div>
+    <div class="main-content">
+        <div metal:define-slot="content" tal:omit-tag="True">No Content</div>
+    </div>
+
+<footer>
+    Footar: Thanks for visiting, contact us ar:<br>
+    <br>
+    twitter: ...<br>
+</footer>
+</body>
+</html>
